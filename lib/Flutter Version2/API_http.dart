@@ -33,7 +33,7 @@ class _MyGetDataState extends State<MyGetData> {
         future: getData,
         builder: (context,snapshot){
           if(snapshot.hasError){
-            print("Error ${snapshot.error}");
+           // print("Error ${snapshot.error}");
             return Center(child: Text("Something wrong to loading"),);
           }
           else{
